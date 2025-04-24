@@ -18,6 +18,7 @@ public class Hello extends HttpServlet {
 	) throws ServletException, IOException {
 		PrintWriter out=response.getWriter();
 		out.println("Hello!");
+		out.println("Hello!");
 		out.println(new java.util.Date());
 		out.println("本日ハ快晴ナリ");
 	}
