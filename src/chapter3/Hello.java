@@ -20,7 +20,7 @@ public class Hello extends HttpServlet {
 		out.println("Hello!");
 		out.println("Hello!");
 		out.println(new java.util.Date());
-		out.println("本日ハ快晴ナリ");
+		out.println("本日ハ快晴也");
 	}
 
 }
